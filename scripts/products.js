@@ -89,7 +89,7 @@ const products = [{
   priceCents: 3390,
 }, {
   image: 'images/products/women-chiffon-beachwear-coverup-black.jpg',
-  name: 'Women"s Chiffon Beachwear Cover Up - Black',
+  name: 'Women Chiffon Beachwear Cover Up - Black',
   ratings:
   {
     stars: 4.5,
@@ -107,7 +107,7 @@ const products = [{
   priceCents: 1560,
 }, {
   image: 'images/products/women-beach-sandals.jpg',
-  name: 'Women"s Two Strap Buckle Sandals - Tan',
+  name: 'Women Two Strap Buckle Sandals - Tan',
   ratings:
   {
     stars: 4.5,
@@ -125,7 +125,7 @@ const products = [{
   priceCents: 4599,
 }, {
   image: 'images/products/men-slim-fit-summer-shorts-gray.jpg',
-  name: 'Men"s Slim-Fit Summer Shorts',
+  name: 'Men Slim-Fit Summer Shorts',
   ratings:
   {
     stars: 4,
@@ -170,7 +170,7 @@ const products = [{
   priceCents: 1799,
 }, {
   image: 'images/products/women-stretch-popover-hoodie-black.jpg',
-  name: 'Women"s Stretch Popover Hoodie',
+  name: 'Women Stretch Popover Hoodie',
   ratings:
   {
     stars: 4.5,
@@ -188,7 +188,7 @@ const products = [{
   priceCents: 1250,
 }, {
   image: 'images/products/women-knit-ballet-flat-black.jpg',
-  name: 'Women"s Knit Ballet Flat',
+  name: 'Women Knit Ballet Flat',
   ratings:
   {
     stars: 4,
@@ -197,7 +197,7 @@ const products = [{
   priceCents: 2640,
 }, {
   image: 'images/products/men-golf-polo-t-shirt-blue.jpg',
-  name: 'Men"s Regular-Fit Quick-Dry Golf Polo Shirt',
+  name: 'Men Regular-Fit Quick-Dry Golf Polo Shirt',
   ratings:
   {
     stars: 4.5,
@@ -224,7 +224,7 @@ const products = [{
   priceCents: 2399,
 }, {
   image: 'images/products/women-chunky-beanie-gray.webp',
-  name: 'Women"s Chunky Cable Beanie - Gray',
+  name: 'Women Chunky Cable Beanie - Gray',
   ratings:
   {
     stars: 5,
@@ -233,7 +233,7 @@ const products = [{
   priceCents: 1250,
 }, {
   image: 'images/products/men-chino-pants-beige.jpg',
-  name: 'Men"s Classic-fit Pleated Chino Pants',
+  name: 'Men Classic-fit Pleated Chino Pants',
   ratings:
   {
     stars: 4.5,
@@ -242,7 +242,7 @@ const products = [{
   priceCents: 2290,
 }, {
   image: 'images/products/men-athletic-shoes-green.jpg',
-  name: 'Men"s Athletic Sneaker',
+  name: 'Men Athletic Sneaker',
   ratings:
   {
     stars: 4,
@@ -251,7 +251,7 @@ const products = [{
   priceCents: 3890,
 }, {
   image: 'images/products/men-navigator-sunglasses-brown.jpg',
-  name: 'Men"s Navigator Sunglasses Pilot',
+  name: 'Men Navigator Sunglasses Pilot',
   ratings:
   {
     stars: 3.5,
@@ -278,7 +278,7 @@ const products = [{
   priceCents: 1649,
 }, {
   image: 'images/products/women-french-terry-fleece-jogger-camo.jpg',
-  name: 'Women"s Fleece Jogger Sweatpant',
+  name: 'Women Fleece Jogger Sweatpant',
   ratings:
   {
     stars: 4.5,
@@ -368,7 +368,7 @@ const products = [{
   priceCents: 5799,
 }, {
   image: 'images/products/men-cozy-fleece-zip-up-hoodie-red.jpg',
-  name: 'Men"s Full-Zip Hooded Fleece Sweatshirt',
+  name: 'Men Full-Zip Hooded Fleece Sweatshirt',
   ratings:
   {
     stars: 4.5,
