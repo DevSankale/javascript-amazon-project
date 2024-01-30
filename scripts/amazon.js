@@ -62,7 +62,7 @@ products.forEach((product) => {
 });
 
 
-console.log(cart);
+
 
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
@@ -82,6 +82,7 @@ function updateCartQuantity() {
 
 
   document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+  
 };
 
 
@@ -93,6 +94,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     const productId = button.dataset.productId;
     addToCart(productId);
     updateCartQuantity();
+    
   });
 });
 

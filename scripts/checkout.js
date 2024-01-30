@@ -9,7 +9,7 @@ let cartSummaryHTML = '';
 cart.forEach((cartitem) => {
   const productId = cartitem.productId;
 
-  let matchingProduct;
+  let matchingProduct ='';
   products.forEach((product) => {
     if (product.id === productId) {
       matchingProduct = product;
@@ -18,7 +18,7 @@ cart.forEach((cartitem) => {
 
 
 
-  cartSummaryHTML = cartSummaryHTML +
+  cartSummaryHTML +=
     `<div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
 <div class="delivery-date">
   Delivery date: Tuesday, June 21
