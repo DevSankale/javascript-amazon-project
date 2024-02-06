@@ -6,6 +6,7 @@ import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js'
 import{deliveryOptions}from './deliveryoptions.js'
 
 
+function renderOrderSummary(){
 
 
 
@@ -42,7 +43,7 @@ const deliveryDate = today.add(deliveryOption.deliveryDays,'days');
 const dateString = 
 deliveryDate.format('dddd, MMMM D');
 
-console.log(dateString);
+
 
 
 
@@ -156,5 +157,10 @@ document.querySelectorAll('.js-delivery-option').forEach((element)=>{
 element.addEventListener('click',()=>{
   const {productId,deliveryOptionId}= element.dataset
 updateDeliveryOption(productId,deliveryOptionId);
+renderOrderSummary();
 })
 });
+
+};
+
+renderOrderSummary();
