@@ -142,7 +142,7 @@ document.querySelectorAll('.js-delete-link').forEach((link) => {
     const container = document.querySelector(`.js-cart-item-container-${productId}`);
     container.remove();
 
-
+renderPaymentSummary();
   });
 });
 
@@ -153,6 +153,7 @@ element.addEventListener('click',()=>{
   const {productId,deliveryOptionId}= element.dataset
 updateDeliveryOption(productId,deliveryOptionId);
 renderOrderSummary();
+renderPaymentSummary();
 })
 });
 
