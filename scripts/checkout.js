@@ -143,6 +143,7 @@ document.querySelectorAll('.js-delete-link').forEach((link) => {
     container.remove();
 
 renderPaymentSummary();
+
   });
 });
 
@@ -154,6 +155,7 @@ element.addEventListener('click',()=>{
 updateDeliveryOption(productId,deliveryOptionId);
 renderOrderSummary();
 renderPaymentSummary();
+
 })
 });
 
@@ -161,3 +163,4 @@ renderPaymentSummary();
 
 renderOrderSummary();
 renderPaymentSummary();
+
