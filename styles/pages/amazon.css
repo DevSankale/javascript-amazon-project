@@ -4,7 +4,6 @@
 
 .products-grid {
   display: grid;
-
   /* - In CSS Grid, 1fr means a column will take up the
        remaining space in the grid.
      - If we write 1fr 1fr ... 1fr; 8 times, this will
@@ -82,7 +81,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 180px;
   margin-bottom: 20px;
 }
@@ -133,7 +131,6 @@
 .added-to-cart {
   color: rgb(6, 125, 98);
   font-size: 16px;
-
   display: flex;
   align-items: center;
   margin-bottom: 8px;
